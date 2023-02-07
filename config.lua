@@ -1,30 +1,11 @@
 Config = {}
-Config.framework = "redemrp"--"redemrp" or "vorp" or "qbr" or "qbr2" or "redemrp-reboot"
-Config.Prompts = {
-    Prompt1 = 0x05CA7C52,
-}
-
-Config.Marker = {
-    rgba = {126, 0, 0, 100},
-    size = {2.0, 2.0, 0.3},
-}
 
 Config.Texts = {
-    Prompt1 = "Label",
-    --
     action = "Action Emotes",
     dance = "Dance Emotes",
     greet = "Greet Emotes",
     reaction = "Reaction Emotes",
     taunt = "Taunt Emotes",
-}
-
-Config.Textures = {
-    cross = {"scoretimer_textures", "scoretimer_generic_cross"},
-    locked = {"menu_textures","stamp_locked_rank"},
-    tick = {"scoretimer_textures","scoretimer_generic_tick"},
-    money = {"inventory_items", "money_moneystack"},
-    alert = {"menu_textures", "menu_icon_alert"},
 }
 
 Config.Emotes = {
