@@ -5,7 +5,6 @@ TriggerEvent("redemrp_menu_base:getData",function(call)
 end)
 ----------------------------END REDEMRP_MENU----------------------------
 local TEXTS = Config.Texts
-local TEXTURES = Config.Textures
 local menuOpen = false 
 
 RegisterCommand("emotes",function(src,args,raw)
