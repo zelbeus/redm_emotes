@@ -67,10 +67,6 @@ RegisterNetEvent("redm_emotes:menu", function()
      end)
 end)
 --------------------------------------------------------------------------------------------------------------------------------------------
-RegisterNetEvent("ricx_:", function()
-
-end)
---------------------------------------------------------------------------------------------------------------------------------------------
 AddEventHandler('onResourceStop', function(resourceName)
 	if (GetCurrentResourceName() ~= resourceName) then
 	  return
