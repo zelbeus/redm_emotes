@@ -1,9 +1,15 @@
-----------------------------REDEMRP_MENU----------------------------
+----------------------------MENU------------------------------------
 MenuData = {}
-TriggerEvent("redemrp_menu_base:getData",function(call)
-    MenuData = call
+if Config.framework == "rsg" then
+    TriggerEvent("rsg-menubase:getData",function(call)
+        MenuData = call
 end)
-----------------------------END REDEMRP_MENU----------------------------
+elseif Config.framework == "redemrp" then
+    TriggerEvent("redemrp_menu_base:getData",function(call)
+        MenuData = call
+end)
+end
+----------------------------END MENU---------------------------------
 local TEXTS = Config.Texts
 local menuOpen = false 
 
